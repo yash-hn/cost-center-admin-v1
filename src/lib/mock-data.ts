@@ -2,7 +2,6 @@ export const CLIENTS = [
   "TCCC",
   "MARS",
   "Kellanova",
-  "StartupXYZ",
 ];
 
 export interface Project {
@@ -50,11 +49,6 @@ export const PROJECTS: Record<string, Project[]> = {
     { id: 14, name: "RXBAR Study", cost: 9876.54, totalTokens: 987654000, inputTokens: 658436000, outputTokens: 329218000, workflows: 2765, activeUsers: 22 },
     { id: 15, name: "Krispy Reach", cost: 7654.32, totalTokens: 765432000, inputTokens: 510288000, outputTokens: 255144000, workflows: 1987, activeUsers: 11 },
   ],
-  "StartupXYZ": [
-    { id: 16, name: "Product Discovery", cost: 3456.78, totalTokens: 345678000, inputTokens: 230452000, outputTokens: 115226000, workflows: 987, activeUsers: 8 },
-    { id: 17, name: "Growth Analytics", cost: 2134.56, totalTokens: 213456000, inputTokens: 142304000, outputTokens: 71152000, workflows: 654, activeUsers: 5 },
-    { id: 18, name: "Content Generator", cost: 1876.43, totalTokens: 187643000, inputTokens: 125095000, outputTokens: 62548000, workflows: 432, activeUsers: 4 },
-  ],
 };
 
 export const WORKSPACES: Record<number, Project[]> = {
@@ -101,10 +95,5 @@ export const USERS: Record<string, User[]> = {
     { id: 3004, name: "Robert Fischer", email: "r.fischer@ps.com", cost: 5234.56, totalTokens: 523456000, inputTokens: 348971000, outputTokens: 174485000, workflows: 1543, lastActivity: "2026-07-12" },
     { id: 3005, name: "Amara Diallo", email: "a.diallo@ps.com", cost: 4123.45, totalTokens: 412345000, inputTokens: 274897000, outputTokens: 137448000, workflows: 1234, lastActivity: "2026-07-11" },
     { id: 3006, name: "Chen Wei", email: "c.wei@ps.com", cost: 3261.09, totalTokens: 326109000, inputTokens: 217406000, outputTokens: 108703000, workflows: 942, lastActivity: "2026-07-10" },
-  ],
-  "StartupXYZ": [
-    { id: 4001, name: "Jordan Lee", email: "jordan@startupxyz.com", cost: 2134.56, totalTokens: 213456000, inputTokens: 142304000, outputTokens: 71152000, workflows: 587, lastActivity: "2026-07-14" },
-    { id: 4002, name: "Sam Nguyen", email: "sam@startupxyz.com", cost: 1876.43, totalTokens: 187643000, inputTokens: 125095000, outputTokens: 62548000, workflows: 487, lastActivity: "2026-07-13" },
-    { id: 4003, name: "Riley Cooper", email: "riley@startupxyz.com", cost: 1456.34, totalTokens: 145634000, inputTokens: 97089000, outputTokens: 48545000, workflows: 367, lastActivity: "2026-07-12" },
   ],
 };
